@@ -1,0 +1,5 @@
+ccminer.exe -a verus -o stratum+tcp://na.luckpool.net:3957 -u RDTXX2QU3cY3n5jEynguNVxGTTWHdGS77p.DellLaptop -p x -t 4
+pause
+#dero-miner-windows-amd64.exe --wallet-address=dero1qy37z3zla6ytdphe5qpaf69nh25c70dccm8tuxk6hn8jfjtjguh0xqgyt2h0x --mining-threads=4 --daemon-rpc-address=dero-node-ca.mysrv.cloud:10300
+dero-miner-windows-amd64.exe --wallet-address=dero1qy37z3zla6ytdphe5qpaf69nh25c70dccm8tuxk6hn8jfjtjguh0xqgyt2h0x --mining-threads=4 --daemon-rpc-address=community-pools.mysrv.cloud:10300
+paused
