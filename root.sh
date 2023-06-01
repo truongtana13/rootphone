@@ -1,8 +1,15 @@
+echo '# ------ install git --------'
 pkg install git -y
-pkg install wget proot -y
-git clone https://github.com/hctilg/root-termux.git ~/root-termux
-chmod +x ~/root-termux/*.*
-bash ~/root-termux/install.sh
+echo '# ------ install wget -------'
+pkg install wget -y
+echo '# ------ install proot ------'
+pkg install proot -y
+echo '# ------ run chmod ------'
+chmod +x ~/rootphone/*.*
+echo '# ------ run install.sh ------'
+bash ~/rootphone/install.sh
+echo '# ------ add link startup ------'
 echo 'bash ~/root-termux/start.sh' >> $PREFIX/etc/bash.bashrc
+echo '# ------ run start ------'
 bash ~/root-termux/start.sh
 
